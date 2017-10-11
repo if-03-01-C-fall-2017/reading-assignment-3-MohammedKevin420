@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)file:///U:/Prog/HTML/Cheatsheat.html -->
+<html lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initail-scale=1.0">
+		<title>CheatSheet</title>
+		<meta http-equiv="refresh" content ="5">
+		<style>
+			table { border-collapse: collapse; }
+			table, th, td { border: 1px solid black; }
+			body {background-color: powderwhite;}
+			h1 {color: darkgreen;text-align: center;}
+			p {color: #787878;}
+			b {color: Green}
+			ul {background: #CDFFDE ; padding: 20px; }
+			tr:nth-child(even) {background-color: #CDFFDE} 
+		</style>
+	</head>
+	<body>
+		<h1>Basic questions</h1>
+		<hr>
+		<br>
+		<br>
+		<b>What are the most essential technologies that made the World Wide Web such a success?</b>
+		<p>More power in PCs.</p>
+		<b>How are resources (html pages, images, etc) addressed in the web?</b>
+		<p>With an URL-Code</p>
+		<b>What are the general components of a url?</b>
+		<p>Name of site,Server and Website</p>
+		<b>What is a web server?</b>
+		<p>A webserver is a computer system that can be requested via an URL.</p>
+		<b>&gt;What does a web server?</b>
+		<p>It sends data to your browser.</p>
+		<b>&gt;How can content be stored on a web server?</b>
+		<p>Content is stored on your Computer or the Webserver</p>
+		<b>How is content in webpages described?</b>
+		<p>Content is describid with tags like <p.></p.></p> 
+		<b>&gt;What is a web client?</b>
+		<p>The web client is a programm on your PC</p>
+		<b>What does a web client?</b>
+		<p>The web client is sending and resiving data from the Webserver</p>
+		<b>What is the html head element</b>
+		<p>In the head element are some Infos about the page</p>
+		<b>What does &lt;!DOCTYPE html&gt; mean?</b>
+		<p>It tells the Browser that this File is an HTML-file </p>
+		<b>What are the two top most elements within the html element?</b>
+		<p>&lt;p&gt; and &lt;h1&gt;</p>
+		<b>How to emphasize a text and how is it displayed in the browser</b>
+		<p>You emphasize a text with special tag</p>
+		<b>How to mark up important ext and how is it displayed in the browser</b>
+		<p>With the &lt;h1&gt; Tag</p>
+		<br>
+		<h1> Basic HTML tutorial </h1> 
+		<hr>
+		<br>
+		<br>
+		<b> How to write Comments </b>
+		<p> &lt;!-- Write your comments here --&gt; </p>
+		<br>
+		<b> How to write Links </b>
+		<p> &lt;a href="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;a/a&gt; </p>
+		<p> The example above used an absolute URL (A full web address). 
+			A local link (link to the same web site) is specified with a relative URL (without http://www....). </p>
+		<br>
+		<b> How to make Pictures</b>
+		<p> &lt;img src="url" alt="some_text" style="width:width;height:height;"&gt; </p>
+		<p> The Alt atribute is an Alternative text when the image cant be displayed</p>
+		<p> Use src="/images/html5.gif" for picturs in other folders than the web page</p>
+		<br>
+		<b> How to make a Head</b>
+		<p> The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.&lt;/p&gt;
+		</p><p> HTML metadata is data about the HTML document. Metadata is not displayed.</p>
+		<br>
+		<b> How to make a Titel</b>
+		<p> The &lt;title&gt; element defines the title of the document, and is required in all HTML/XHTML documents.</p>
+		<br>
+		<h1> Basic CSS tutorial </h1>
+		<hr>
+		<br>
+		<b> How to define a Style</b>
+		<p> The &lt;style&gt; element is used to define style information for a single HTML page</p>
+		<p> The style of a webpage is often safed in an external file</p>
+		<p> %ltstyle&gt;
+			body {background-color: powderblue;}
+			h1 {color: red;}
+			p {color: blue;}
+			&lt;/style%gt</p>
+		<br>
+		<b> How to make a Link to a File</b>
+		<p> The &lt;link&gt; element is used to link to external style sheets:</p>
+		<p> &lt;link rel="stylesheet" href="mystyle.css"&gt; </p>
+		<br> 
+		<b> How to change the Background </b>
+		<p> body {
+			background-color: lightblue;
+			}
+		</p>
+		<b> How to change the Color of Text</b>
+		<p> body {
+			color: blue;
+			}
+		</p>
+		<p> Colors can be defined in 3 ways</p>
+		<p> 1: By Name (green,red,darkblue)</p>
+		<p> 2: By RGD (rgb(255, 0, 0),rgb(255, 15, 32))</p>
+		<p> 3: By HEX (#ff0000,#a0b070)</p>
+		<br>
+		<b> How to change the style of a Text</b>
+		<p> h1 { text-decoration: overline; }
+		<br>
+			h2 { text-decoration: line-through; }
+		<br>	
+			h3 { text-decoration: underline; }
+		<br>
+			h1 { letter-spacing: 3px; } Space between charactas
+		<br>
+			p.small { line-height: 0.8;  Space between lines
+		<br> 
+			h1 { word-spacing: 10px; } Spacebetween words
+		</p>
+		<b> HTML List </b>
+		<p> </p>
+		<b> Unordered HTML List</b>
+		<p> An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.
+			The list items will be marked with bullets (small black circles) by default:
+		</p>
+		<br>
+		<p> Example </p>
+		<p> &lt;ul&gt;
+		<br>
+ 				&lt;li&gt;Coffee&lt;/li&gt;
+		<br>
+				&lt;li&gt;Tea&lt;/li&gt;
+		<br>
+				&lt;li&gt;Milk&lt;/li&gt;
+		<br>
+			&lt;/ul&gt;
+		</p>
+		<ul style="list-style-type:circle">
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Milk</li>
+		</ul>
+		<b> Ordered HTML List </b>
+		<p> An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.
+			The list items will be marked with numbers by default:
+		</p>
+		<p> Example </p>
+		<p> &lt;ol type="1"&gt;
+		<br>
+				&lt;li&gt;Coffee&lt;/li&gt;
+		<br>
+				&lt;li&gt;Tea&lt;/li&gt;
+		<br>
+				&lt;li&gt;Milk&lt;/li&gt;
+		<br>
+			&lt;/ol&gt;&lt;/p&gt;
+		</p>
+		<p> <ol type="1">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+		</p>
+		<p> The type attribute of the &lt;ol&gt; tag, defines the type of the list item marker:</p>
+		<p> type="1" The list items will be numbered with numbers (default)</p>
+		<p> type="A" The list items will be numbered with uppercase letters</p>
+		<p> type="a" The list items will be numbered with lowercase letters</p>
+		<p> type="I" The list items will be numbered with uppercase roman numbers</p>
+		<p> type="i" The list items will be numbered with lowercase roman numbers</p>
+		</br>
+		<b> CSS Lists</b>
+		<p> The CSS list properties allow you to: </p>
+		<ul>
+				<li>Set different list item markers for ordered lists</li>
+				<li>Set different list item markers for unordered lists</li>
+				<li>Set an image as the list item marker</li>
+				<li>Add background colors to lists and list items</li>
+		</ul>	
+		</br> 
+		<p> ul.a { list-style-type: circle; } item marker for Ordered lists</p>
+		<p> ul.a { list-style-image: url('sqpurple.gif'); } Image as item marker</p>
+		<p> ol { background: #ff9999; padding: 20px; } Change the background of a List</p>
+		<b> HTML Tables</b>
+		</br>
+		<p> An HTML table is defined with the &lt;table&gt; tag.</p>
+		</br>
+		<p> Each table row is defined with the &lt;tr&gt; tag. </br>
+			A table header is defined with the &lt;th&gt; tag.</br>
+			By default, table headings are bold and centered.</br>
+			A table data/cell is defined with the &lt;td&gt; tag.</br>
+		</p>
+		<table style="width:60%">
+			<caption>Creat this with &lt;caption&gt;</caption>
+			<tr>
+				<th>Firstname</th>
+				<th>Lastname</th> 
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Jill</td>
+				<td>Smith</td> 
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td> 
+				<td>94</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td> 
+				<td>94</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td> 
+				<td>94</td>
+			</tr>
+		</table>
+		</br>
+		<b> CSS Tabels</b>
+		</br>
+		<p> table, th, td { border: 1px solid black; } Creates a Border.</p>
+		<p> table { border-collapse: collapse; } Makes parallel Borders to one Border.</p>
+		<p> table { width: 100%; } Defines how long the table is.</p>
+		<p>	th { height: 50px; } Defines the heigth of a row.</p>
+		<p> th { text-align: left; } Defines the position of the text.</p>
+		<p> td { height: 50px; vertical-align: bottom; } Defines the vertikal poition of the text.</p>
+		<p> To control the space between the border and the content in a table, use the padding property on &lt;td&gt; and &lt;th&gt; elements:</p>
+		<p> tr:nth-child(even) {background-color: #f2f2f2} to give the Table a zebra look in color</p>
+		<p> </p>
+		<p> </p>
+		<br>
+		
+		
+		
+ 
+		
+	
+		
+		
+	
+</body></html>
